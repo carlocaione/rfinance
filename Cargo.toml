@@ -4,3 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.86"
+chrono = { version = "0.4.38", features = ["serde"] }
+clap = { version = "4.5.16", features = ["derive"] }
+clap-repl = { git = "https://github.com/HKalbasi/clap-repl.git" }
+derive_more = { version = "1.0.0", features = ["from_str"] }
+directories-next = "2.0.0"
+financeapi = "0.1.1"
+owo-colors = "4.0.0"
+serde = { version = "1.0.209", features = ["derive"] }
+tabled = { version = "0.16.0", features = ["ansi"] }
+tokio = { version = "1.39.3", features = ["rt", "macros"] }
+toml = "0.8.19"
